@@ -18,7 +18,8 @@ The project team will communicate updates via Slack.
 
 The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
 Outputs labels would include...
-
+- Current number of Covid cases
+- Predicted number of Covid cases
 ## Database
 
 Sample planning steps illustrated below.
