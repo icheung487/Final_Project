@@ -1,4 +1,4 @@
-# Final_Project
+# Final Project: Covid-19 Vacation Planner
 
 ## Overview
 
@@ -22,7 +22,7 @@ Outputs labels would include...
 ## Database
 
 Sample planning steps illustrated below.
-![Planning Steps]("/Images/Planning_Steps.png")
+![Planning Steps](/Images/Planning_Steps.png)
 
 Sample data structure or schema would be as follows:
 
