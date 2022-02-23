@@ -6,7 +6,7 @@ The purpose of this project is to create a <b>Covid-19 Vacation Planner</b>.
 
 ENTER REASON FOR SELECTING THIS TOPIC.  
 
-Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git) and by using Google's Places APIs and Hotel APIs.
+Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git) and by using Google's Places APIs and Hotel APIs.  With the interactive map, we will utilize [The Global Economy] (https://www.theglobaleconomy.com/download-data.php) data to show percentage of tourist arrival in a given place.  
 
 The expected output of this project is an interactive website that will enable users to determine places to vacation in the world while taking into consideration current Covid cases and <i>predicted Covid cases</i> of their desired location. 
 
