@@ -21,6 +21,9 @@ Outputs labels would include...
 
 ## Database
 
+Sample planning steps illustrated below.
+![Planning Steps](URL)
+
 Sample data structure or schema would be as follows:
 
 Draft machine learning model would be as follows:
