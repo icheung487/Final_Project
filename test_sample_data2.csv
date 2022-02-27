@@ -1,4 +1,4 @@
-City,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed_cases,Deaths,Recovered,Active,Incident_Rate,Case_Fatality_Ratio
+City,Province_State,Country_Region,Last_Update,Lat,Long_,Confirmed_Cases_Per_Day,Deaths,Recovered,Active_Per_Day,Incident_Rate,Case_Fatality_Ratio
 Abbeville,South Carolina,US,2020-06-09,34.22333378,-82.46170658,58,0,0.0,58.0,236.4740897786113,0.0
 Acadia,Louisiana,US,2020-06-09,30.295064899999996,-92.41419698,513,29,0.0,484.0,826.8192440970264,5.6530214424951275
 Accomack,Virginia,US,2020-06-09,37.76707161,-75.63234615,983,13,0.0,970.0,3041.8368609976483,1.3224821973550356
