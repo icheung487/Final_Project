@@ -38,5 +38,8 @@ The API request will be for Google API and Leaflet to add the hotel, cost and we
 
 ## Visualisation 
 
-The data will be visualized on an HTML page. User interface will be similar to the picture below . 
+The data will be visualized on an HTML page. User interface will be similar to the picture below .
+
+
+![Website_wireframe](https://user-images.githubusercontent.com/91625564/155895250-277bab40-3f1e-4e4b-84bc-a84a169f19b0.png)
 
