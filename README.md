@@ -14,7 +14,7 @@ The expected output of this project is an interactive website that will enable u
 
 ## Communication Protocols
 
-The project team will communicate updates via Slack.
+The project team will communicate updates via Slack.  We will meet weekly during class hours to discuss and update each other on the progress.  We will be meeting during weekends as well so we can help each other troubleshoot any issues we may have. 
 
 ## Machine Learning Model
 
@@ -22,6 +22,7 @@ The Machine Learning Model would be designed to <i>predict Covid cases</i> based
 Outputs labels would include...
 - Current number of Covid cases
 - Predicted number of Covid cases
+
 ## Database
 
 Sample planning steps illustrated below.
@@ -39,7 +40,6 @@ The API request will be for Google API and Leaflet to add the hotel, cost and we
 ## Visualisation 
 
 The data will be visualized on an HTML page. User interface will be similar to the picture below .
-
 
 ![Website_wireframe](https://user-images.githubusercontent.com/91625564/155895250-277bab40-3f1e-4e4b-84bc-a84a169f19b0.png)
 
