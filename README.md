@@ -19,6 +19,7 @@ The project team will communicate updates via Slack.  We will meet weekly during
 ## Machine Learning Model
 
 The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
+The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
 Outputs labels would include...
 - Current number of Covid cases
 - Predicted number of Covid cases
