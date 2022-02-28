@@ -17,8 +17,8 @@ The expected output of this project is an interactive website that will enable u
 The project team will communicate updates via Slack.  We will meet weekly during class hours to discuss and update each other on the progress.  We will be meeting during weekends as well so we can help each other troubleshoot any issues we may have. 
 
 ## Machine Learning Model
-The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
-The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
+- The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
+- The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
 Outputs labels would include...
 - Current number of Covid cases
 - Predicted number of Covid cases
