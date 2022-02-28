@@ -33,6 +33,20 @@ Data Structure will be AWS and Postgress
 
 Draft machine learning model would be as follows: We are looking to use linear regression model. 
 
+Team members present a fully integrated database.
+
+✓ Database stores static data for use during the project
+
+✓ Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+
+✓ Includes at least two tables (or collections, if using MongoDB)
+
+✓ Includes at least one join using the database language (not including any joins in Pandas)
+
+✓ Includes at least one connection string (using SQLAlchemy or PyMongo)
+
+Note: If you use a SQL database, you must provide your ERD with relationships.
+
 ## API request 
 
 The API request will be for Google API and Leaflet to add the hotel, cost and weather information. 
@@ -42,4 +56,12 @@ The API request will be for Google API and Leaflet to add the hotel, cost and we
 The data will be visualized on an HTML page. User interface will be similar to the picture below .
 
 ![Website_wireframe](https://user-images.githubusercontent.com/91625564/155895250-277bab40-3f1e-4e4b-84bc-a84a169f19b0.png)
+
+A blueprint for the dashboard is created and includes all of the following:
+
+✓ Storyboard on Google Slide(s)
+
+✓ Description of the tool(s) that will be used to create final dashboard
+
+✓ Description of interactive element(s)
 
