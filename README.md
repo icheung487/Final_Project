@@ -25,19 +25,19 @@ Outputs labels would include:
 
 ## Database
 
-Sample planning steps illustrated below.
+- Sample planning steps illustrated below.
 ![Planning Steps](/Images/Planning_Steps.png)
 Image 1. Planning Steps
 
-Sample data structure or schema would be as follows:
+- Sample data structure or schema would be as follows:
 Data Structure will be AWS and Postgress
 ![Mock Database Structure](/Images/Test_sample_image.png)
 Image 2. Mock Database Structure
 
-![Data Structure]()
+![Data Structure](INSERT DATA STRUCTURE PNG FILE)
 Image 3. Data Structure Illustration
 
-Draft machine learning model would be as follows: We are looking to use linear regression model. 
+- Draft machine learning model would be as follows: We are looking to use linear regression model. 
 
 Team members present a fully integrated database.
 
