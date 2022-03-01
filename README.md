@@ -59,7 +59,7 @@ The data will be visualized on an HTML page. User interface will be similar to t
 
 A blueprint for the dashboard is created and includes all of the following:
 
-✓ Storyboard on Google Slide(s)
+✓ [Storyboard on Google Slide(s)](https://docs.google.com/presentation/d/1rRUgBaMj10F-QSXcLct27BEUSyZpRNjWwqpKbI4w5Ks/edit?usp=sharing)
 
 ✓ Description of the tool(s) that will be used to create final dashboard
 
