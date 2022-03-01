@@ -19,7 +19,7 @@ The project team will communicate updates via Slack.  We will meet weekly during
 ## Machine Learning Model
 - The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
 - The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
-Outputs labels would include...
+Outputs labels would include:
 - Current number of Covid cases
 - Predicted number of Covid cases
 
@@ -27,10 +27,15 @@ Outputs labels would include...
 
 Sample planning steps illustrated below.
 ![Planning Steps](/Images/Planning_Steps.png)
+Image 1. Planning Steps
 
 Sample data structure or schema would be as follows:
 Data Structure will be AWS and Postgress
-![Mock Data Structure](/Images/Test_sample_image.png)
+![Mock Database Structure](/Images/Test_sample_image.png)
+Image 2. Mock Database Structure
+
+![Data Structure]()
+Image 3. Data Structure Illustration
 
 Draft machine learning model would be as follows: We are looking to use linear regression model. 
 
