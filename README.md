@@ -30,6 +30,7 @@ Sample planning steps illustrated below.
 
 Sample data structure or schema would be as follows:
 Data Structure will be AWS and Postgress
+![Mock Data Structure](/Images/Test_sample_image.png)
 
 Draft machine learning model would be as follows: We are looking to use linear regression model. 
 
