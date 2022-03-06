@@ -20,10 +20,9 @@ The project team will communicate updates via Slack.  We will meet weekly during
 <<<<<<< HEAD
 
 The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
-The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
+The model will use Random forrest or ARIMA model for analyzing and forecasting time series data to find relationship between various variable to predict the confirmed Covid cases per day
 Outputs labels would include...
 =======
-- The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
 - The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
 Outputs labels would include:
 >>>>>>> d00e914cb93f79c01531c7a1dc1a2ad8289505cf
