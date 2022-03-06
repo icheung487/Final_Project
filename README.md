@@ -18,6 +18,7 @@ The project team will communicate updates via Slack.  We will meet weekly during
 
 ## Machine Learning Model
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
 The model will use Random forrest or ARIMA model for analyzing and forecasting time series data to find relationship between various variable to predict the confirmed Covid cases per day
@@ -26,6 +27,11 @@ Outputs labels would include...
 - The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
 Outputs labels would include:
 >>>>>>> d00e914cb93f79c01531c7a1dc1a2ad8289505cf
+=======
+- The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
+- The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
+Outputs labels would include:
+>>>>>>> c86215ad6db6edadd1c9fea2cdb39eb0b458d98b
 - Current number of Covid cases
 - Predicted number of Covid cases
 
@@ -39,6 +45,7 @@ Image 1. Planning Steps
 Data Structure will be AWS and Postgress
 ![Mock Database Structure](/Images/Test_sample_image.png)
 Image 2. Mock Database Structure
+<<<<<<< HEAD
 
 ![Data Structure](INSERT DATA STRUCTURE PNG FILE)
 Image 3. Data Structure Illustration
@@ -53,6 +60,22 @@ Team members present a fully integrated database.
 
 ✓ Includes at least two tables (or collections, if using MongoDB)
 
+=======
+
+![Data Structure](INSERT DATA STRUCTURE PNG FILE)
+Image 3. Data Structure Illustration
+
+- Draft machine learning model would be as follows: We are looking to use linear regression model. 
+
+Team members present a fully integrated database.
+
+✓ Database stores static data for use during the project
+
+✓ Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+
+✓ Includes at least two tables (or collections, if using MongoDB)
+
+>>>>>>> c86215ad6db6edadd1c9fea2cdb39eb0b458d98b
 ✓ Includes at least one join using the database language (not including any joins in Pandas)
 
 ✓ Includes at least one connection string (using SQLAlchemy or PyMongo)

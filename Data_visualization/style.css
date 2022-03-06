@@ -1,0 +1,23 @@
+
+   
+  .jumbotron {
+    margin-bottom: 40px !important;
+    height: 480px !important;
+    color: white !important;
+    text-shadow: black 0.1em 0.3em 0.3em !important;
+    
+
+.white-text h2 {
+    color: rgb(197, 107, 112);
+}
+
+.box{
+    margin-right:40px;
+    margin: left 40px;
+    width:160px; /* Set this property to whatever you like */
+}
+
+.search {
+    margin: 0 auto;
+    display: block;
+}
