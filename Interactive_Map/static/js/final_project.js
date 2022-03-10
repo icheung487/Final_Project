@@ -25,8 +25,10 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 // MAYBE ADD BOUNDARY? 
 // Create the map object with a center and zoom level.
 let map = L.map("mapid", {
-  center: [37.5443,-4.7278],
-  zoom: 3
+  center: [40.85209301,
+    -73.86282755],
+  zoom: 3,
+  layers: [streets]
 });
 
 // Create a base layer that holds all three maps.
@@ -34,7 +36,6 @@ let baseMaps = {
   "Streets": streets,
   "Satellite": satelliteStreets,
   "Dark": dark
-  
 };
 
 
@@ -60,7 +61,7 @@ let cityData = cities;
 cityData.forEach(function(cities) {
   console.log(cities)
 L.circleMarker(cities.coordinates, {
-    radius: cities.confirmed_cases/1000000,
+    radius: cities.confirmed_cases/10000000,
     color: "#B50027",
     opacity: 1,
     fillOpacity: 0.5,
@@ -72,18 +73,23 @@ L.circleMarker(cities.coordinates, {
   currentCovidCases.addTo(map);
 
 L.circleMarker(cities.coordinates, {
-  radius: cities.people_fully_vaccinated/1000000,
+  radius: cities.people_fully_vaccinated/10000000,
   color: "#388D5D",
   opacity: 1,
   fillOpacity: 0.5,
   stroke: true,
   weight: 0.5
   })
-  .bindPopup("<h2>" + cities.provine_state + ", " + cities.country_region + "</h2> <hr> <h3>Total Vaccinated: " + cities.people_fully_vaccinated.toLocaleString() + "</h3>")
+  .bindPopup("<h2>" + cities.provine_state + ", " + cities.country_region + "</h2><hr><h3>Total Vaccinated: " + cities.people_fully_vaccinated.toLocaleString() + "</h3>")
 .addTo(vaccinated);
 vaccinated.addTo(map);
 });
 
+// Catch Error
+try {
+  nonExistentFunction();
+} catch (error) {
+  console.error(error);}
 
 // Projected Covid Cases
 // L.circleMarker(cities.Coordinates, {

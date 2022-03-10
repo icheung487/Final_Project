@@ -769,19 +769,6 @@ let cities = [
   },
   {
     "city": "",
-    "provine_state": "Unknown",
-    "country_region": "Mexico",
-    "lat": "",
-    "long": "",
-    "confirmed_cases": 0,
-    "cases_per_day": 0,
-    "last_update": "2021-08-05",
-    "people_fully_vaccinated": 26503580,
-    "coordinates": "",
-    "projected_covid_cases": ""
-  },
-  {
-    "city": "",
     "provine_state": "Veracruz",
     "country_region": "Mexico",
     "lat": 19.1738,
@@ -53885,19 +53872,6 @@ let cities = [
       31.6927,
       88.0924
     ],
-    "projected_covid_cases": ""
-  },
-  {
-    "city": "",
-    "provine_state": "Unknown",
-    "country_region": "China",
-    "lat": "",
-    "long": "",
-    "confirmed_cases": 0,
-    "cases_per_day": "",
-    "last_update": "2022-02-25",
-    "people_fully_vaccinated": 1234540000,
-    "coordinates": "",
     "projected_covid_cases": ""
   },
   {
@@ -54718,19 +54692,6 @@ let cities = [
   },
   {
     "city": "",
-    "provine_state": "Unknown",
-    "country_region": "Mexico",
-    "lat": "",
-    "long": "",
-    "confirmed_cases": 0,
-    "cases_per_day": 0,
-    "last_update": "2021-08-05",
-    "people_fully_vaccinated": 26503580,
-    "coordinates": "",
-    "projected_covid_cases": ""
-  },
-  {
-    "city": "",
     "provine_state": "Veracruz",
     "country_region": "Mexico",
     "lat": 19.1738,
@@ -107821,19 +107782,6 @@ let cities = [
       31.6927,
       88.0924
     ],
-    "projected_covid_cases": ""
-  },
-  {
-    "city": "",
-    "provine_state": "Unknown",
-    "country_region": "China",
-    "lat": "",
-    "long": "",
-    "confirmed_cases": 0,
-    "cases_per_day": "",
-    "last_update": "2022-02-25",
-    "people_fully_vaccinated": 1234540000,
-    "coordinates": "",
     "projected_covid_cases": ""
   },
   {
@@ -108654,19 +108602,6 @@ let cities = [
   },
   {
     "city": "",
-    "provine_state": "Unknown",
-    "country_region": "Mexico",
-    "lat": "",
-    "long": "",
-    "confirmed_cases": 0,
-    "cases_per_day": 0,
-    "last_update": "2021-08-05",
-    "people_fully_vaccinated": 26503580,
-    "coordinates": "",
-    "projected_covid_cases": ""
-  },
-  {
-    "city": "",
     "provine_state": "Veracruz",
     "country_region": "Mexico",
     "lat": 19.1738,
@@ -161744,19 +161679,6 @@ let cities = [
       31.6927,
       88.0924
     ],
-    "projected_covid_cases": ""
-  },
-  {
-    "city": "",
-    "provine_state": "Unknown",
-    "country_region": "China",
-    "lat": "",
-    "long": "",
-    "confirmed_cases": 0,
-    "cases_per_day": "",
-    "last_update": "2022-02-25",
-    "people_fully_vaccinated": 1234540000,
-    "coordinates": "",
     "projected_covid_cases": ""
   },
   {
