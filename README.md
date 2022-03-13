@@ -4,11 +4,10 @@
 
 The purpose of this project is to create a <b>Covid-19 Vacation Planner</b>. 
 
-We choosed this topic to help theuser to answer the ultimate question <b> Where should i go for my vacation? Is it safe ?</b>.  
+We choose this topic to help the user to answer the ultimate question <b> Where should i go for my vacation? Is it safe?</b>.  
 
 This analysis will help predict whether it's safe to for to a destination. Adding more vacation information about the cost and weather. 
-
-Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git) and by using Google's Places APIs and Hotel APIs.  With the interactive map, we will utilize [The Global Economy](https://www.theglobaleconomy.com/download-data.php) data to show percentage of tourist arrival in a given place.  
+Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git) and by using Google's Places APIs and Hotel APIs.  With the interactive map, we will utilize [The Global Economy] (https://www.theglobaleconomy.com/download-data.php) data to show percentage of tourist arrival in a given place.  
 
 The expected output of this project is an interactive website that will enable users to determine places to vacation in the world while taking into consideration current Covid cases and <i>predicted Covid cases</i> of their desired location. 
 
@@ -17,25 +16,21 @@ The expected output of this project is an interactive website that will enable u
 The project team will communicate updates via Slack.  We will meet weekly during class hours to discuss and update each other on the progress.  We will be meeting during weekends as well so we can help each other troubleshoot any issues we may have. 
 
 ## Machine Learning Model
-<<<<<<< HEAD
-<<<<<<< HEAD
+The Random Forest Regressor algorithm was used to predict confirmed Covid cases based on the current trend. This model was selected because it uses ensemble learning, a technique that make a more accurate prediction because it combines predictions from multiple learning algorithms as opposed to a single algorithm
+Data preprocessing 
+Preliminary data preprocessing for the ML model included dropping NaN values, dropping location with missing latitude and longitude values, and encoding categorical data 
+Features selection
+The target feature(y) that was selected was the number of confirmed covid cases. The ML algorithm was used to predict the number of confirmed covid cases on specific dates. The output is a predicted number for each coordinate location. 
+ 
+The features set (X)   that had the strongest relationship with the target feature included cities and their coordinates, last update on covid cases, cases per day and number of people fully vaccinated
 
-The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
-The model will use Random forrest or ARIMA model for analyzing and forecasting time series data to find relationship between various variable to predict the confirmed Covid cases per day
-Outputs labels would include...
-=======
-- The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
-Outputs labels would include:
->>>>>>> d00e914cb93f79c01531c7a1dc1a2ad8289505cf
-=======
-- The model will use Linear Regression to find relationship between various variable to predict the confirmed Covid cases per day
-- The Machine Learning Model would be designed to <i>predict Covid cases</i> based on the current trend.  
-Outputs labels would include:
->>>>>>> c86215ad6db6edadd1c9fea2cdb39eb0b458d98b
-- Current number of Covid cases
-- Predicted number of Covid cases
+Splitting the training and testing sets 
+Splitting the dataset into the training set and test was done randomly using the following code :
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
+The training set has what is known from which the model will learn from
+The test set tests the model’s predictions based on what it has learned from the training set.
 
-## Database
+#Database
 
 - Sample planning steps illustrated below.
 ![Planning Steps](/Images/Planning_Steps.png)
@@ -92,7 +87,7 @@ Note: If you use a SQL database, you must provide your ERD with relationships.
 
 The API request will be for Google API and Leaflet to add the hotel and Covid data information. 
 
-## Visualisation 
+## Visualization 
 
 The data will be visualized on an HTML page. User interface will be similar to the picture below .
 
@@ -111,4 +106,7 @@ Interactive Map Display
 
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
 Hotel and Covid Information
+
+
+
 
