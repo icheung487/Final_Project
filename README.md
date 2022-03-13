@@ -17,20 +17,27 @@ The project team will communicate updates via Slack.  We will meet weekly during
 
 ## Machine Learning Model
 The Random Forest Regressor algorithm was used to predict confirmed Covid cases based on the current trend. This model was selected because it uses ensemble learning, a technique that make a more accurate prediction because it combines predictions from multiple learning algorithms as opposed to a single algorithm
-Data preprocessing 
+
+The Model was first tested on a small dataset, the state on New York before using it on the whole dataset. After achieving an accuracy of 99% in predicting confirmed covid cases, the model was then used to predict confirmed covid cases for the whole data set
+
+#### Data preprocessing 
+
 Preliminary data preprocessing for the ML model included dropping NaN values, dropping location with missing latitude and longitude values, and encoding categorical data 
-Features selection
-The target feature(y) that was selected was the number of confirmed covid cases. The ML algorithm was used to predict the number of confirmed covid cases on specific dates. The output is a predicted number for each coordinate location. 
+
+#### Features selection
+- The target feature(y) that was selected was the number of confirmed covid cases. The ML algorithm was used to predict the number of confirmed covid cases on specific dates.   The output is a predicted number for each coordinate location. 
  
-The features set (X)   that had the strongest relationship with the target feature included cities and their coordinates, last update on covid cases, cases per day and number of people fully vaccinated
+- The features set (X)   that had the strongest relationship with the target feature included cities and their coordinates, last update on covid cases, cases per day and number of people fully vaccinated
 
-Splitting the training and testing sets 
-Splitting the dataset into the training set and test was done randomly using the following code :
-X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
-The training set has what is known from which the model will learn from
-The test set tests the model’s predictions based on what it has learned from the training set.
+#### Splitting the training and testing sets 
+- Splitting the dataset into the training set and test was done randomly using the following code :
 
-#Database
+   X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=78)
+
+- The training set has what is known from which the model will learn from
+- The test set tests the model’s predictions based on what it has learned from the training set.
+
+## Database
 
 - Sample planning steps illustrated below.
 ![Planning Steps](/Images/Planning_Steps.png)
