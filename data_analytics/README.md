@@ -22,5 +22,5 @@
 ![image](https://github.com/icheung487/Final_Project/blob/main/Images/Connecting_And_Downloading_to_Postgres.png)
 
 * Please see below tables created in Postgres, total of 3 tables.
-![image]((https://github.com/icheung487/Final_Project/blob/main/Images/Postgres_Connections.png)
+![image](https://github.com/icheung487/Final_Project/blob/main/Images/Postgres_Connections.png)
 
