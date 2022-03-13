@@ -85,7 +85,7 @@ L.circleMarker(cities.coordinates, {
     stroke: true,
     weight: 0.5
   })
-  .bindPopup("<h2>" + cities.province_state + ", " + cities.country_region + "</h2> <hr> <h3>Confirmed Cases: " + cities.confirmed_cases.toLocaleString() + "</h3>")
+  .bindPopup("<h2>" + cities.provine_state + ", " + cities.country_region + "</h2> <hr> <h3>Confirmed Cases: " + cities.confirmed_cases.toLocaleString() + "</h3> <hr> <h4> Last Update: " + cities.last_update + "</h4>")
   .addTo(currentCovidCases);
   currentCovidCases.addTo(map);
 
@@ -97,7 +97,7 @@ L.circleMarker(cities.coordinates, {
   stroke: true,
   weight: 0.5
   })
-  .bindPopup("<h2>" + cities.province_state + ", " + cities.country_region + "</h2><hr><h3>Total Vaccinated: " + cities.people_fully_vaccinated.toLocaleString() + "</h3>")
+  .bindPopup("<h2>" + cities.provine_state + ", " + cities.country_region + "</h2><hr><h3>Total Vaccinated: " + cities.people_fully_vaccinated.toLocaleString() + "</h3> <hr> <h4> Last Update: " + cities.last_update + "</h4>")
 .addTo(vaccinated);
 vaccinated.addTo(map);
 });
