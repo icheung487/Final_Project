@@ -15,7 +15,8 @@
 ## Database:
 * Postgress and AWS to store the data in the cloud. 
 * We also stored the data in Mongodb as a backup. 
-
+* Image below is Mongodb for reference. 
+![image](https://github.com/icheung487/Final_Project/blob/main/Images/MongoDB_Collections.png)
 
 * Please see below image of connecting and uploading the data from Postgress
 ![image](https://github.com/icheung487/Final_Project/blob/main/Images/Connecting_And_Downloading_to_Postgres.png)
