@@ -9,14 +9,17 @@
    4. Merged the COVID19 data set with people fully vaccinated data.
    5. Created a new column coordinates.
    6. Removed any null values from lat and long. 
+#Final Data set image below:
+![image](https://github.com/icheung487/Final_Project/blob/main/Images/Final_COVID19_data.png)
 
 ## Database:
 * Postgress and AWS to store the data in the cloud. 
 * We also stored the data in Mongodb as a backup. 
 
+
 * Please see below image of connecting and uploading the data from Postgress
-![image]
+![image](https://github.com/icheung487/Final_Project/blob/main/Images/Connecting_And_Downloading_to_Postgres.png)
 
 * Please see below tables created in Postgres, total of 3 tables.
-![image]
+![image]((https://github.com/icheung487/Final_Project/blob/main/Images/Postgres_Connections.png)
 
