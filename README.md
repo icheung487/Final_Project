@@ -107,7 +107,7 @@ A blueprint for the dashboard is created and includes all of the following:
 ✓ Description of interactive element(s)
 <br>This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 layers information they want to view.  <b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. 
 ![Interactive Map](/Images/Interactive_Map.png)
-Interactivie Map Display
+Interactive Map Display
 
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
 Hotel and Covid Information
