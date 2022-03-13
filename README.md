@@ -57,6 +57,12 @@ Team members present a fully integrated database.
 ✓ Database stores static data for use during the project
 
 ✓ Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
+#### <br><b>- Interactive Map via Leaflet</b>
+Displays Top 10 Most Visited Countries with 3 different types of layers: Top 10 Safest Cities, Confirmed Covid Cases, and Total Vaccinated.
+The dataset is interfaced with the JavaScript file from the Postgres database.
+#### <b>- Hotel Information via Google API</b>
+Displays Hotel and Covid Information for Top 10 Safest Cities.
+THe dataset is interfaced with Jupyter from the Postgres database. 
 
 ✓ Includes at least two tables (or collections, if using MongoDB)
 
@@ -84,7 +90,7 @@ Note: If you use a SQL database, you must provide your ERD with relationships.
 
 ## API request 
 
-The API request will be for Google API and Leaflet to add the hotel, cost and weather information. 
+The API request will be for Google API and Leaflet to add the hotel and Covid data information. 
 
 ## Visualisation 
 
@@ -99,4 +105,10 @@ A blueprint for the dashboard is created and includes all of the following:
 ✓ Description of the tool(s) that will be used to create final dashboard
 
 ✓ Description of interactive element(s)
+<br>This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 layers information they want to view.  <b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. 
+![Interactive Map](/Images/Interactive_Map.png)
+Interactivie Map Display
+
+![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
+Hotel and Covid Information
 
