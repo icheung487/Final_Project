@@ -6,8 +6,7 @@ The purpose of this project is to create a <b>Covid-19 Vacation Planner</b>.
 
 We choose this topic to help the user to answer the ultimate question <b> Where should i go for my vacation? Is it safe?</b>.  
 
-This analysis will help predict whether it's safe to for to a destination. Adding more vacation information about the cost and weather. 
-Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git) and by using Google's Places APIs and Hotel APIs.  With the interactive map, we will utilize [The Global Economy] (https://www.theglobaleconomy.com/download-data.php) data to show percentage of tourist arrival in a given place.  
+This analysis will help predict whether it's safe to for to a destination. Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git), [Tourist Arrival](https://ourworldindata.org/tourism), [Covid Vaccination](https://ourworldindata.org/covid-vaccinations), and using Google's Places API to obtain Hotel and Rating information.  
 
 The expected output of this project is an interactive website that will enable users to determine places to vacation in the world while taking into consideration current Covid cases and <i>predicted Covid cases</i> of their desired location. 
 
