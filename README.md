@@ -32,6 +32,9 @@ The <b>Random Forest Regressor algorithm</b> was used to predict confirmed Covid
 
 The Model was first tested on a small dataset, the state on New York before using it on the whole dataset. After achieving an accuracy of 99% in predicting confirmed covid cases, the model was then used to predict confirmed covid cases for the whole data set
 
+![ML Model](/Images/ML%20flowchart.png)
+Image 3. ML Model
+
 #### Data preprocessing 
 
 Preliminary data preprocessing for the ML model included dropping NaN values, dropping location with missing latitude and longitude values, and encoding categorical data 
