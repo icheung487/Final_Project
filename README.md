@@ -50,11 +50,12 @@ Preliminary data preprocessing for the ML model included dropping NaN values, dr
 - The test set tests the model’s predictions based on what it has learned from the training set.
 
 #### Results of Analysis
-![ML Accuracy Score](/Images/Accuracy.png)
-Image 4. ML Accuracy Score
+Accuracy scores are below:
+<br>![ML Accuracy Score](/Images/Accuracy.png)
+<br>Image 4. ML Accuracy Score
 
-![Real Values vs Predicted Values]
-Image 5. ML Real Values vs Predicted Values(/Images/Analysis.png)
+![Real Values vs Predicted Values](/Images/Analysis.png)
+<br>Image 5. ML Real Values vs Predicted Values
 
 ## Data Visualization
 #### Flowchart
