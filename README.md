@@ -2,20 +2,33 @@
 
 ## Overview
 
-The purpose of this project is to create a <b>Covid-19 Vacation Planner</b>. 
+The purpose of this project is to create a <b>Covid-19 Vacation Planner</b> using current Covid-10 data and predicted Covid-19 cases to narrow down Top 10 Safest Destination. 
 
-We choose this topic to help the user to answer the ultimate question <b> Where should i go for my vacation? Is it safe?</b>.  
+We chose this topic to help end-users identify the <b>safest place</b> to go on vacation during the Covid pandemic.  
+- Where are the top 10 places we can go on vacation during Covid-19?
+- What are the hotel options and their star ratings? 
+- What are the Covid-19 predicted cases based on the historical data for those locations? 
 
-This analysis will help predict whether it's safe to for to a destination. Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git), [Tourist Arrival](https://ourworldindata.org/tourism), [Covid Vaccination](https://ourworldindata.org/covid-vaccinations), and using Google's Places API to obtain Hotel and Rating information.  
+The output of this project is an interactive website that will enable users to determine places to vacation in the world while taking into consideration current Covid cases and <i>predicted Covid cases</i> of their desired location. 
 
-The expected output of this project is an interactive website that will enable users to determine places to vacation in the world while taking into consideration current Covid cases and <i>predicted Covid cases</i> of their desired location. 
+✓ [Storyboard on Google Slide(s)](https://docs.google.com/presentation/d/1rRUgBaMj10F-QSXcLct27BEUSyZpRNjWwqpKbI4w5Ks/edit?usp=sharing)
 
 ## Communication Protocols
-
 The project team will communicate updates via Slack.  We will meet weekly during class hours to discuss and update each other on the progress.  We will be meeting during weekends as well so we can help each other troubleshoot any issues we may have. 
 
+## Planning Steps
+![Planning Steps](/Images/Planning_Steps.png)
+Image 1. Planning Steps
+
+## Data Collection and Sources
+Data sources would include real world data of Covid-19 cases published by [CSSEGIS](https://github.com/CSSEGISandData/COVID-19.git), [Tourist Arrival](https://ourworldindata.org/tourism), [Covid Vaccination](https://ourworldindata.org/covid-vaccinations), and using Google's Places API to obtain Hotel and Rating information.  
+
+## Technologies
+![Technologies List](/Images/Technologies.png)
+Image 2. Technology List
+
 ## Machine Learning Model
-The Random Forest Regressor algorithm was used to predict confirmed Covid cases based on the current trend. This model was selected because it uses ensemble learning, a technique that make a more accurate prediction because it combines predictions from multiple learning algorithms as opposed to a single algorithm
+The <b>Random Forest Regressor algorithm</b> was used to predict confirmed Covid cases based on the current trend. This model was selected because it uses ensemble learning, a technique that make a more accurate prediction because it combines predictions from multiple learning algorithms as opposed to a single algorithm
 
 The Model was first tested on a small dataset, the state on New York before using it on the whole dataset. After achieving an accuracy of 99% in predicting confirmed covid cases, the model was then used to predict confirmed covid cases for the whole data set
 
@@ -36,83 +49,27 @@ Preliminary data preprocessing for the ML model included dropping NaN values, dr
 - The training set has what is known from which the model will learn from
 - The test set tests the model’s predictions based on what it has learned from the training set.
 
-## Database
+#### Results of Analysis
 
-- Sample planning steps illustrated below.
-![Planning Steps](/Images/Planning_Steps.png)
-Image 1. Planning Steps
+## Data Visualization
+#### Flowchart
+![Flowchart](/Images/Flowchart.png)
+Image 3. Flowchart
 
-- Sample data structure or schema would be as follows:
-Data Structure will be AWS and Postgress
-![Mock Database Structure](/Images/Test_sample_image.png)
-Image 2. Mock Database Structure
-<<<<<<< HEAD
-
-![Data Structure](INSERT DATA STRUCTURE PNG FILE)
-Image 3. Data Structure Illustration
-
-- Draft machine learning model would be as follows: We are looking to use linear regression model. 
-
-Team members present a fully integrated database.
-
-✓ Database stores static data for use during the project
-
-✓ Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
-#### <br><b>- Interactive Map via Leaflet</b>
-Displays Top 10 Most Visited Countries with 3 different types of maps (Streets, Satellite, and Dark Mode) and layers which are Top 10 Safest Cities, Confirmed Covid Cases, and Total Vaccinated.
-The dataset is interfaced with the Postgres database converted to JSON -> JavaScript file.
-#### <b>- Hotel Information via Google API</b>
-Displays Hotel and Covid Information for Top 10 Safest Cities.
-THe dataset is interfaced from the Postgres database. 
-
-✓ Includes at least two tables (or collections, if using MongoDB)
-
-=======
-
-![Data Structure](INSERT DATA STRUCTURE PNG FILE)
-Image 3. Data Structure Illustration
-
-- Draft machine learning model would be as follows: We are looking to use linear regression model. 
-
-Team members present a fully integrated database.
-
-✓ Database stores static data for use during the project
-
-✓ Database interfaces with the project in some format (e.g., scraping updates the database, or database connects to the model)
-
-✓ Includes at least two tables (or collections, if using MongoDB)
-
->>>>>>> c86215ad6db6edadd1c9fea2cdb39eb0b458d98b
-✓ Includes at least one join using the database language (not including any joins in Pandas)
-
-✓ Includes at least one connection string (using SQLAlchemy or PyMongo)
-
-Note: If you use a SQL database, you must provide your ERD with relationships.
-
-## API request 
-
-The API request will be for Google API and Leaflet to add the hotel and Covid data information. 
-
-## Visualization 
-
-The data will be visualized on an HTML page. User interface will be similar to the picture below .
-
-![Website_wireframe](https://user-images.githubusercontent.com/91625564/155895250-277bab40-3f1e-4e4b-84bc-a84a169f19b0.png)
-
-A blueprint for the dashboard is created and includes all of the following:
-
-✓ [Storyboard on Google Slide(s)](https://docs.google.com/presentation/d/1rRUgBaMj10F-QSXcLct27BEUSyZpRNjWwqpKbI4w5Ks/edit?usp=sharing)
-
-✓ Description of the tool(s) that will be used to create final dashboard
-
-✓ Description of interactive element(s)
-<br>This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view.  <b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. 
+#### Interactive Map
+This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view.  
 ![Interactive Map](/Images/Interactive_Map.png)
-Interactive Map Display
+Image 4. Interactive Map Display
 
+#### Hotel API and Covid Information
+<b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. 
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
-Hotel and Covid Information
+Image 5. Hotel and Covid Information
 
+#### Interactive Dashboard 
 
-
-
+## Recommendations
+- Use additional data sources such as Census (population) for countries in conjunction with Covid data
+- Pull updated Covid data in the Interactive Map
+- Use the ARIMA ML model instead of the Random Forest Regressor as it is more apt in time series forecasting to predict future values based on previously observed values
+- Extracting huge amounts of data can be cumbersome and redundant. Using efficient ways to append data would have been useful
