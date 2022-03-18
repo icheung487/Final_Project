@@ -50,21 +50,26 @@ Preliminary data preprocessing for the ML model included dropping NaN values, dr
 - The test set tests the model’s predictions based on what it has learned from the training set.
 
 #### Results of Analysis
+![ML Accuracy Score](/Images/Accuracy.png)
+Image 4. ML Accuracy Score
+
+![Real Values vs Predicted Values]
+Image 5. ML Real Values vs Predicted Values(/Images/Analysis.png)
 
 ## Data Visualization
 #### Flowchart
 ![Flowchart](/Images/Flowchart.png)
-Image 3. Flowchart
+Image 6. Flowchart
 
 #### Interactive Map
 This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view.  
 ![Interactive Map](/Images/Interactive_Map.png)
-Image 4. Interactive Map Display
+Image 7. Interactive Map Display
 
 #### Hotel API and Covid Information
 <b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. 
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
-Image 5. Hotel and Covid Information
+Image 8. Hotel and Covid Information
 
 #### Interactive Dashboard 
 
