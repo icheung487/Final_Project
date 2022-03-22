@@ -1,7 +1,7 @@
 # Final Project: Covid-19 Vacation Planner
 
 ## Overview of Data Analysis: Data Exploration
- * Data Sources: COVID19 Dat and Number of people fully vaccinated
+ * Data Sources: [COVID19](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) Data and Number of people fully vaccinated
  * Steps of Cleaning and Merge the dataset: 
    1. Combined all the COVID19 files.
    2. Created a for loop to remove the null values and replace them with values from other columns.
