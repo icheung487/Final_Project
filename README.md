@@ -62,13 +62,13 @@ Accuracy scores are below:
 ![Flowchart](/Images/Flowchart.png)
 Image 6. Flowchart
 
-#### Interactive Map
-This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view. [Click here to access JS code.](/Interactive_Map/static/js/final_project.js)  
+#### [Interactive Map](/Interactive_Map/static/js/final_project.js)
+This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view.
 ![Interactive Map](/Images/Interactive_Map.png)
 Image 7. Interactive Map Display
 
-#### Hotel API and Covid Information
-<b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. [Click here to access code.](/Interactive_Map/Vacation_Search.ipynb)
+#### [Hotel API and Covid Information](/Interactive_Map/Vacation_Search.ipynb)
+<b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world.
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
 Image 8. Hotel and Covid Information
 
