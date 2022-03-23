@@ -41,8 +41,6 @@ Preliminary data preprocessing for the ML model included dropping NaN values, dr
  
 - The features set (X)   that had the strongest relationship with the target feature included cities and their coordinates, last update on covid cases, cases per day and number of people fully vaccinated
 
-![Features Set](/Images/Features%20Set.png)
-
 #### Splitting the training and testing sets 
 - Splitting the dataset into the training set and test was done randomly using the following code :
 
