@@ -13,9 +13,6 @@ The output of this project is an interactive website that will enable users to d
 
 ✓ [Storyboard on Google Slide(s)](https://docs.google.com/presentation/d/1rRUgBaMj10F-QSXcLct27BEUSyZpRNjWwqpKbI4w5Ks/edit?usp=sharing)
 
-## Communication Protocols
-The project team will communicate updates via Slack.  We will meet weekly during class hours to discuss and update each other on the progress.  We will be meeting during weekends as well so we can help each other troubleshoot any issues we may have. 
-
 ## Planning Steps
 ![Planning Steps](/Images/Planning_Steps.png)
 Image 1. Planning Steps
@@ -66,12 +63,12 @@ Accuracy scores are below:
 Image 6. Flowchart
 
 #### Interactive Map
-This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view.  
+This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view. [Click here to access JS code.](/Interactive_Map/static/js/final_project.js)  
 ![Interactive Map](/Images/Interactive_Map.png)
 Image 7. Interactive Map Display
 
 #### Hotel API and Covid Information
-<b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. 
+<b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world. [Click here to access code.](/Interactive_Map/Vacation_Search.ipynb)
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
 Image 8. Hotel and Covid Information
 
