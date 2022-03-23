@@ -1,4 +1,4 @@
-# Final Project: Covid-19 Vacation Planner
+# Final Project: Covid-19 Vacation Planner:
 
 ## Overview of Data Analysis: Data Exploration
  * Data Sources: [COVID19](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports) Data and [Number of people fully vaccinated](https://ourworldindata.org/covid-vaccinations)
@@ -24,3 +24,6 @@
 * Please see below tables created in Postgres, total of 3 tables.
 ![image](https://github.com/icheung487/Final_Project/blob/main/Images/Postgres_Connections.png)
 
+* Other ways to extract the data: 
+   * Create a [directory](https://github.com/icheung487/Final_Project/blob/main/data_analytics/Download_Data_To_local_Computer.ipynb) and saving the files on the local computer. 
+   * Download the data from [github URL](https://github.com/icheung487/Final_Project/blob/main/data_analytics/Extract_from_Github.ipynb) into a dataframe. 
