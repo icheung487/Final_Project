@@ -24,7 +24,7 @@ Data sources would include real world data of Covid-19 cases published by [CSSEG
 ![Technologies List](/Images/Technologies.png)
 Image 2. Technology List
 
-## Machine Learning Model
+## [Machine Learning Model](https://github.com/icheung487/Final_Project/blob/main/ML_RandomForestRegressor-Top_Vacations_ML.ipynb)
 The <b>Random Forest Regressor algorithm</b> was used to predict confirmed Covid cases based on the current trend. This model was selected because it uses ensemble learning, a technique that make a more accurate prediction because it combines predictions from multiple learning algorithms as opposed to a single algorithm
 
 The Model was first tested on a small dataset, the state on New York before using it on the whole dataset. After achieving an accuracy of 99% in predicting confirmed covid cases, the model was then used to predict confirmed covid cases for the whole data set
