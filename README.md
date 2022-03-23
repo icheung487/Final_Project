@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this project is to create a <b>Covid-19 Vacation Planner</b> using current Covid-10 data and predicted Covid-19 cases to narrow down Top 10 Safest Destination. 
+The purpose of this project is to create a <b>Covid-19 Vacation Planner</b> using current Covid-19 data and predicted Covid-19 cases to narrow down Top 10 Safest Destination. 
 
 We chose this topic to help end-users identify the <b>safest place</b> to go on vacation during the Covid pandemic.  
 - Where are the top 10 places we can go on vacation during Covid-19?
