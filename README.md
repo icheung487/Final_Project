@@ -73,6 +73,8 @@ Image 7. Interactive Map Display
 Image 8. Hotel and Covid Information
 
 #### Interactive Dashboard 
+![Dashboard](/Images/Dashboard.png)
+Image 9. Interactive Dashboard
 
 ## Recommendations
 - Use additional data sources such as Census (population) for countries in conjunction with Covid data
