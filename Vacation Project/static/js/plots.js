@@ -45,80 +45,67 @@ var dataArr = Plotly.d3.json("../static/data/tree_month_history.json", function(
       };
     Plotly.react('plot1', CasesBarr, layout1);
     
-    // line chart 
-    var trace2 = {
-        x: state_province,
-        y: cases,
-        mode: 'lines',
-        connectgaps: true
-      };
+    // // line chart 
+    // var trace2 = {
+    //     x: state_province,
+    //     y: cases,
+    //     mode: 'lines',
+    //     connectgaps: true
+    //   };
       
-      var CasesDate = [trace2];
+    //   var CasesDate = [trace2];
       
-      var layout2 = {
-        title: 'Cases history for the past 3 Months',
-        showlegend: false
-      };
+    //   var layout2 = {
+    //     title: 'Cases history for the past 3 Months',
+    //     showlegend: false
+    //   };
       
-       Plotly.react('plot2', CasesDate, layout2);  
+    //    Plotly.react('plot2', CasesDate, layout2);  
  
     var values = state_province;
  
     var select = d3.select("#selDataset");
 
-    list = values.filter(function (x, i, a) { 
-        return a.indexOf(x) === i; 
-    });
+            list = values.filter(function (x, i, a) { 
+                return a.indexOf(x) === i; 
+            });
 
-    for (val of list)
-    {
-        select.append("option").text(val).property("value",val);
-    }
+            for (val of list)
+            {
+                select.append("option").text(val).property("value",val);
+            }
  
 });
 
 function optionChanged(place){
-    Plotly.d3.json("../static/data/tree_month_history.json", function(err, data){
+    Plotly.d3.json("static/data/tree_month_history.json", function(err, data){
         function unpack(data, key) {
             return data.map(function(item) { return item[key]; });
         }
         // filter based on place 
         const result = top_10.filter(({province_state}) => province_state === place);
+        var xcity= result[0]["province_state"];
+        var cityCases = result[0]['cases_per_day'];
+        var cityVaccinated = result[0]['people_fully_vaccinated'];
+        console.log(result);
+        console.log(cityCases);
+        console.log(cityVaccinated);
+        // plot based on place 
+        var filtredCity = [
+            {
+              x: xcity ,
+              y: [cityCases,cityVaccinated] ,
+              type: 'bar'
+            }
+          ];
 
-        // ploting filtred data 
-        result.forEach(function (item) {
-            console.log(item)
-            const config = {
-                data: {
-                    datasets: [{
-                        type: 'line',
-                        label: 'Cases',
-                        data: [{
-                            x: item[1],
-                            y: item[8]
-                        }],
-                        fill: false,
-                        pointRadius: 0,
-                        tension: 0.1,
-                        borderColor: 'rgb(0, 128, 0)',
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-            };
-            let ctx = document.getElementById('plot2');
-            let myChart = new Chart(ctx, config);
-        })
+        Plotly.newPlot('plot2', filtredCity);
+    
 
     });
 
-    console.log(place);
-}
+    //console.log(place);
+};
 
 function openTab(pageName, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
