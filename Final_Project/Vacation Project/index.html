@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Covid Vacation</title>
+    <!-- Jumbotron  -->
+    <div class="container">
+    <div class="row">      
+        <div class="jumbotron" style="background-image: url(https://drive.google.com/uc?export=view&id=19gLCpRJo5mwIp99DAuSuzBII-zdE9ICX); background-size: 100%;">
+        </div>   
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+
+    <!-- d3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+</head>
+<body style="background-color:rgba(233, 128, 198, 0.623);">
+    <script src="static/data/tree_month_history.json"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <button class="tablink" onclick="openTab('Home', this, 'rgba(201, 215, 235, 0.845)')">Home</button>
+    <button class="tablink" onclick="openTab('Map', this, 'rgb(237, 237, 233)')" >Map</button>
+    <button class="tablink" onclick="openTab('Dashboard', this, 'rgba(239, 210, 210, 0.514)')">Dashboard</button>
+    
+
+    <!-- Home tab  -->
+    <div id="Home" class="tabcontent" style="display:block"> 
+        <div id="chartContainer" style="height: 300px; width: 100%;">
+        <div id="container">
+            <br>
+            <div>
+                <label id="list">Top 10 places</label>
+                <select id="selDataset" onchange="optionChanged(this.value)"></select>
+            </div>
+            <div class="col-md-6">
+                <div id="plot0"></div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="plot1"></div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="plot2"></div>
+            </div>
+
+            </div>
+        </div>
+
+    </div>  
+        <!-- Map tab  -->
+        <div id="Map" class="tabcontent" style="height: 1200px; width: 100%;" >
+            <title>Leaflet-Basic-Map</title>
+        <!-- The div that holds our map -->
+            <!-- <div id="mapid" style="height: 12000; width: 100%;"></div> -->
+
+        </div>
+
+        <!-- Leaflet JavaScript -->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+    
+        <!-- API key -->
+        <script type="text/javascript" src="static/js/config.js"></script>
+        <!-- Our JavaScript -->
+        <script type="text/javascript" src="static/js/cities.js"></script>
+        <script type="text/javascript" src="static/js/top_10.js"></script>
+        <script type="text/javascript" src="static/js/final_project.js"></script>
+       
+      
+          
+        
+    
+    <!--Dashboard tab-->
+    <div id="Dashboard" class="tabcontent" style="height: 1200px; width: 100%;">
+        <div class='tableauPlaceholder' id='viz1648010685330' style='position: relative'><noscript><a href='#'><img alt='Dashboard - Covid Safest Places ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FC&#47;FCF2F5T2D&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;FCF2F5T2D' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;FC&#47;FCF2F5T2D&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1648010685330');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1220px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1220px';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> 
+    </div>
+    <script src="static/js/plots.js"></script>
+
+</body>
+</html>
