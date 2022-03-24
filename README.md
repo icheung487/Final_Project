@@ -72,7 +72,7 @@ Image 7. Interactive Map Display
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
 Image 8. Hotel and Covid Information
 
-#### Interactive Dashboard 
+#### [Interactive Dashboard](/Vacation%20Project/index.html) 
 ![Dashboard](/Images/Dashboard.png)
 Image 9. Interactive Dashboard
 
