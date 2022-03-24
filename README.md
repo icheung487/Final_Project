@@ -64,17 +64,27 @@ Image 6. Flowchart
 
 #### [Interactive Map](/Interactive_Map/static/js/final_project.js)
 This project utilizes <b>Leaflet Maps</b> to display Covid information of Top 10 Visited Countries.  End-users have the ability to click on the map and select from the 3 maps and layers they want to view.
+
+##### Overview of Leaflet Planning and Coding
+![Leaflet Planning and Coding](/Images/Leaftlet%20Planning%20and%20Coding.png)
+Image 7. Leaflet Planning and Coding
+
 ![Interactive Map](/Images/Interactive_Map.png)
-Image 7. Interactive Map Display
+Image 8. Interactive Map Display
 
 #### [Hotel API and Covid Information](/Interactive_Map/Vacation_Search.ipynb)
 <b>Google API via Nearby Search</b> is also utilized to display Hotel and Covid information of Top 10 Safest Cities in the world.
+
+##### Overview of Gmaps and Hotel API Planning and Coding
+![Gmaps and Hotel API Planning and Coding](/Images/Gmaps%20and%20Hotel%20API%20Planning%20and%20Coding.png)
+Image 9. Gmaps and Hotel API Planning and Coding
+
 ![Hotel and Covid Information](/Images/Hotel_Covid_Info.png)
-Image 8. Hotel and Covid Information
+Image 10. Hotel and Covid Information
 
 #### [Interactive Dashboard](/Vacation%20Project/index.html) 
 ![Dashboard](/Images/Dashboard.png)
-Image 9. Interactive Dashboard
+Image 11. Interactive Dashboard
 
 ## Recommendations
 - Use additional data sources such as Census (population) for countries in conjunction with Covid data
